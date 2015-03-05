@@ -1,6 +1,6 @@
 # Showday
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/showday`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem helps you to calculate a date for an absolute day in a year
 
 TODO: Delete this and the text above, and describe your gem
 

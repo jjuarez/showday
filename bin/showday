@@ -5,12 +5,15 @@ lib = File.expand_path('../../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'showday'
 
-
 ##
 # ::main::
 d = ShowDay::CLI.new(
-  year: Choice.choices[:year], 
+  year: Choice.choices[:year],
   day:  Choice.choices[:day]
 ).run
 
-printf("%4s-%s-%02d\n",d.year, ShowDay::CLI::DAYS_BY_MONTH[d.month][:name], d.day)
+printf(
+  "%4s-%s-%02d\n",
+  d.year,
+  ShowDay::CLI::DAYS_BY_MONTH[d.month][:name],
+  d.day)
