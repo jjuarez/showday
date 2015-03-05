@@ -2,8 +2,6 @@
 
 This gem helps you to calculate a date for an absolute day in a year
 
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
