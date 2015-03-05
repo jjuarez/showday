@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Execute showday without parameters for obtain a little help
 
 ## Development
 
